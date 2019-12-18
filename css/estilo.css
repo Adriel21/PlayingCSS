@@ -1,0 +1,33 @@
+a {
+	text-decoration: none;
+	color: black;
+}
+
+ul{
+	text-decoration-style: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li a {
+	text-indent: 30px;
+	height: 40px;
+	width: 200px;
+	display: block;
+	background: #f7b600 url(../imagens/menu.png) no-repeat left;
+	line-height: 40px;
+}
+
+a:hover {
+	background-position: right;
+	background-color: #f99200;
+	color: white; 
+}
+
+#principal .menu-lateral .index a,
+#principal .menu-lateral .sobre a {
+	background-position: right;
+	background-color: #f99200;
+	color: white; 
+}
