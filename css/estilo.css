@@ -1,4 +1,4 @@
-a {
+/*a {
 	text-decoration: none;
 	color: black;
 }
@@ -25,9 +25,46 @@ a:hover {
 	color: white; 
 }
 
-#principal .menu-lateral .index a,
-#principal .menu-lateral .sobre a {
+#home .menu-lateral .index a,
+#sobre .menu-lateral .sobre a {
 	background-position: right;
 	background-color: #f99200;
 	color: white; 
+}*/
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 2em;
+	width: 400px;
+	background: #159cb0 url(../imagens/fundo-horizontal.png) repeat-x;
+	float: left;
 }
+
+ul a {
+	float: left;
+	display: block;
+	padding: 0 2em;
+	line-height: 2em;
+	text-decoration: none;
+	color: white;
+	background: url(../imagens/divisor.png) repeat-y;
+}
+
+ul .primeiro a {
+	background: none;
+}
+
+li a:hover {
+	color: black;
+	background: #159cb0;
+}
+
+#home .menu-lateral .index a,
+#sobre .menu-lateral .sobre a {
+	background-color: #159cb0;
+	color: black; 
+}
+
+
